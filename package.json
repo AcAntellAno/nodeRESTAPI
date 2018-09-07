@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/AcAntellAno/nodeRESTAPI/issues"
   },
-  "homepage": "https://github.com/AcAntellAno/nodeRESTAPI#readme"
+  "homepage": "https://github.com/AcAntellAno/nodeRESTAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
 }
