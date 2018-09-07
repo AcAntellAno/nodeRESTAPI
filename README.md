@@ -5,3 +5,5 @@
 * ` cd /repo_name`
 * ` npm install`
 * ` npm start`
+* ` test api enpoints with postman `
+
