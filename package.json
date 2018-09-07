@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AcAntellAno/nodeRESTAPI#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
   }
 }
