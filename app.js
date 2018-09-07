@@ -8,8 +8,11 @@ let routes = require('./routes/routes.js');
 var app = express();
 const port = 8080;
 
+app.set('view engine', 'ejs');
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
 routes(app);
 
